@@ -5,6 +5,11 @@ html{
 *, *::before, :after{
     box-sizing: inherit;
 }
+h1,h2,h3,h4,p,ul {
+margin-top: 0;
+margin-bottom: 0;
+
+}
 
     
 body{
@@ -26,14 +31,17 @@ body{
     --text-bg-dop:#F5F4FA;
 }
 .container{
-    width: 1600px;
-    outline: 2px solid tomato;
+    width: 1200px;
+    outline: 2px solid red;
+    margin: 0 auto;
+    padding-left: 15;
+    padding-right: 15;
+   
 }
 /*------------разметка nav----------*/
 .header-nav{
     background-color: var(--main-bg-color);
-    outline: 2px solid tomato;
-    width: 1200pх;
+   
 
 }
 .main-nav{
@@ -43,12 +51,10 @@ body{
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
-    outline: 2px solid greenyellow;
+   
     }
     .studio-text{
-        display: inline-block;
-        box-sizing: content-box;
-        outline: 2px solid greenyellow;
+       
         Width: 145px;
         Height: 31px;
     }
@@ -122,20 +128,27 @@ body{
 .solutions{
     background-color: var(--dg-sacond-color);
     letter-spacing: 0.06em;
+    max-width: 1600px;
+    margin: 0 auto;
+    padding-top: 200px;
+    padding-bottom: 200px;
     text-align: center;
-    display: inline-block;
-    box-sizing: border-box;
-    outline: 2px solid greenyellow;
-    width: 1200px;
-}
+    }
+   
 .solution-business{
     color: var(--main-bg-color);
     font-family: Roboto;
     font-weight: 900;
     font-size: 44px;
     line-height: 1.36;
-    outline: 2px solid greenyellow;
-    width: 1200px;
+    margin-top:0;
+    margin-bottom: 0;
+    text-align: center;
+    margin: 0 auto;
+    max-width: 696px;
+    
+   
+   
     }
 .ordservis{
     color: var(--main-bg-color);
@@ -143,14 +156,17 @@ body{
     font-weight: 700;
     font-size: 16px;
     line-height: 1.87;
+    letter-spacing: 0.06em;
     cursor: pointer;
     background-color: var(--hov-foc-color);
-    text-align: center;
-    outline: 2px solid tomato;
-    height: 50px;
-    width: 200px;
+   
+    
+    
     border-radius: 4px;
     padding: 10px 32px 10px 32px;
+    margin-top: 40px;
+    text-align: center;
+
   
 }
 .ordservis:hover,
@@ -158,16 +174,12 @@ body{
     background-color:var(--hov-foc-exclusiv);
     
 }
-.bt-text{
-    outline: 1px solid tomato;
-    Width: 136px;
-    Height: 30px;
-    
+
+  
     /* left: 732px;
     top: 440px; */
     /* border-radius: nullpx; */
 
-}
 /* .btn{
     display: inline-block; */ 
     /* border: 7px solid greenyellow;
@@ -185,14 +197,10 @@ body{
 }
 .vlastivosti{
     list-style: none;
-    
+    margin-top: 94px;
+    margin-left: 0;
 }
-.cont-box-one{
-    width: 1200px;
-    outline: 2px solid greenyellow;
-    
 
-}
 .groop-pec {
   /*-------other-------*/
 }
@@ -204,6 +212,8 @@ body{
     line-height: 1.14;
     letter-spacing: 0.03em;
     text-transform: uppercase;
+    margin-top: 0;
+    margin-bottom: 0;
    
 }
 .exersise{
@@ -211,9 +221,8 @@ body{
     font-size: 14px;
     line-height:1.71;
     letter-spacing: 0.03em;
-    margin-left: auto;
-    margin-right: auto;
-   
+   margin-top: 10;
+   margin-bottom: 0;
 }
 /*------------разметка vlastivosti and----------*/
 /*----------what-we-are-doing-------*/
@@ -227,6 +236,8 @@ body{
     font-size: 36px;
     line-height: 1.16;
     letter-spacing: 0.03em;
+    margin-top: 0;
+    margin-bottom:50px;
 }
 .doing-foto{
     list-style: none;
@@ -388,13 +399,13 @@ button{
 
 /*-------portfolio work---------*/
 /*-------test---------*/
-.box{
+/* .box{
     border: 5px solid black;
 padding: 20px;
 margin: 20px;
 outline: 5px solid rosybrown;
 margin-bottom:50px;
-}
+} */
 
 
 
@@ -428,7 +439,7 @@ background: honeydew;
     outline: 2px solid greenyellow;
     margin-top: 0; */
 
-    html{
+    /* html{
         box-sizing: border-box;
         vertical-align: middle;
     }
@@ -436,3 +447,6 @@ background: honeydew;
         box-sizing: inherit;
         
     } */
+
+
+     
