@@ -1,0 +1,438 @@
+/* -----------разметка boby----------*/
+html{
+    box-sizing: border-box;
+}
+*, *::before, :after{
+    box-sizing: inherit;
+}
+
+    
+body{
+    margin: 0;
+    color:#757575;
+    font-family: Roboto, sans-serif;
+    background-color: white;
+    letter-spacing: 0.03em;
+}
+/* -----------разметка boby and----------*/
+:root{
+    --main-bg-color:#FFFFFF;
+    --dg-sacond-color:#2F303A;
+    --text-main-color:#757575;
+    --hov-foc-color:#2196F3;
+    --hov-foc-exclusiv:#188CE8;
+    --text-dec-black:#212121;
+    --text-rgb-a:rgba(255, 255, 255, 0.6);
+    --text-bg-dop:#F5F4FA;
+}
+.container{
+    width: 1600px;
+    outline: 2px solid tomato;
+}
+/*------------разметка nav----------*/
+.header-nav{
+    background-color: var(--main-bg-color);
+    outline: 2px solid tomato;
+    width: 1200pх;
+
+}
+.main-nav{
+    color: var(--text-dec-black);
+    font-family: Roboto;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    outline: 2px solid greenyellow;
+    }
+    .studio-text{
+        display: inline-block;
+        box-sizing: content-box;
+        outline: 2px solid greenyellow;
+        Width: 145px;
+        Height: 31px;
+    }
+.logoone{
+    color: var(--hov-foc-color);
+    font-family: Raleway;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.192;
+    letter-spacing: 0.03em;
+    
+}
+ /* .logoand{
+        font-family: Raleway;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 26px;
+        line-height: 1.192;
+        letter-spacing: 0.03em; */
+
+.logoand {
+    font-family: Raleway;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.192;
+    letter-spacing: 0.03em;
+}
+.logo>span{
+    color: var(--hov-foc-color);
+    font-family: Raleway;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.92;
+    letter-spacing: 0.03em;
+ }
+.stpoco{
+    color: var(--text-dec-black);
+    list-style: none;
+}
+.link{
+    color: var(--text-dec-black);
+    text-decoration: none;  
+    letter-spacing: 0.02em;
+    
+    
+}
+.link:hover{
+    color: var(--hov-foc-color);
+}
+.link.current{
+    color: var(--hov-foc-color);
+}
+.contact{
+    list-style: none;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+}
+.contact .link{
+    color: var(--text-main-color);
+    text-decoration: none; 
+    list-style: none;
+}
+.contact .link:hover,
+.contact .link:focus{
+    color: var(--hov-foc-color)
+}
+/*------------разметка nav and----------*/
+
+/*------------разметка solutions----------*/
+.solutions{
+    background-color: var(--dg-sacond-color);
+    letter-spacing: 0.06em;
+    text-align: center;
+    display: inline-block;
+    box-sizing: border-box;
+    outline: 2px solid greenyellow;
+    width: 1200px;
+}
+.solution-business{
+    color: var(--main-bg-color);
+    font-family: Roboto;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    outline: 2px solid greenyellow;
+    width: 1200px;
+    }
+.ordservis{
+    color: var(--main-bg-color);
+    font-family: inherit;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.87;
+    cursor: pointer;
+    background-color: var(--hov-foc-color);
+    text-align: center;
+    outline: 2px solid tomato;
+    height: 50px;
+    width: 200px;
+    border-radius: 4px;
+    padding: 10px 32px 10px 32px;
+  
+}
+.ordservis:hover,
+.ordservis:focus {
+    background-color:var(--hov-foc-exclusiv);
+    
+}
+.bt-text{
+    outline: 1px solid tomato;
+    Width: 136px;
+    Height: 30px;
+    
+    /* left: 732px;
+    top: 440px; */
+    /* border-radius: nullpx; */
+
+}
+/* .btn{
+    display: inline-block; */ 
+    /* border: 7px solid greenyellow;
+    /* height: 50px;
+    width: 200px;
+    left: 700px;
+    top: 430px;
+    border-radius: 4px; */
+
+
+/*------------разметка  solutions and----------*/
+/*------------разметка vlastivosti----------*/
+.peculiar {
+    display: none;
+}
+.vlastivosti{
+    list-style: none;
+    
+}
+.cont-box-one{
+    width: 1200px;
+    outline: 2px solid greenyellow;
+    
+
+}
+.groop-pec {
+  /*-------other-------*/
+}
+.good-job{
+    color: var(--text-dec-black);
+    font-family: Roboto;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+   
+}
+.exersise{
+    font-weight: normal;
+    font-size: 14px;
+    line-height:1.71;
+    letter-spacing: 0.03em;
+    margin-left: auto;
+    margin-right: auto;
+   
+}
+/*------------разметка vlastivosti and----------*/
+/*----------what-we-are-doing-------*/
+.doing{
+    /*-------other-------*/
+}
+.what-we-are-doing{
+    color: var(--text-dec-black);
+    font-family: Roboto;
+    font-weight:700;
+    font-size: 36px;
+    line-height: 1.16;
+    letter-spacing: 0.03em;
+}
+.doing-foto{
+    list-style: none;
+}
+/*----------what-we-are-doing and-------*/
+/*----------our-team-----------*/
+.our-team {
+    background: var(--text-bg-dop);
+}
+.together-team{
+    list-style: none; 
+    
+}
+.portfol{
+ /*-------other-------*/  
+}
+.name{
+    color: var(--text-dec-black);
+    font-family: Roboto;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.18;
+    letter-spacing: 0.03em;
+}
+.prof{
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 1.18;
+    letter-spacing: 0.03em;
+}
+/*----------our-team and-----------*/
+/*----------footer-----------*/
+footer{
+    background: var(--dg-sacond-color);
+}
+.foot-link{
+    text-decoration: none;
+}
+.foot-logo{
+    color: var(--hov-foc-color);
+    font-family: Raleway;
+    font-weight: 700;
+    font-size: 26px;
+    line-height:1.19;
+    letter-spacing: 0.03em;
+}
+.foot-logoand{
+    color: var(--main-bg-color);
+    font-family: Raleway;
+    font-weight: 700;
+    font-size: 26px;
+    line-height:1.19;
+    letter-spacing: 0.03em;
+}
+.foot-logoand:hover,
+.foot-logoand:focus{
+    color: var(--hov-foc-color); 
+}
+.foot-address{
+    color: var(--main-bg-color);  
+    font-style: normal;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+}
+.foot-mail-tel{
+    list-style: none;
+}
+.foot-cont{
+    /*-------other-------*/
+}
+.foot-mail{
+/*-------other-------*/
+}
+   .foot-mail-com{
+    color: var(--text-rgb-a);
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    text-decoration: none;
+ }
+ .foot-mail-com:hover,
+ .foot-mail-com:focus{
+    color: var(--hov-foc-color);
+ }
+ .foot-tel-com{
+    color: var(--text-rgb-a);
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    text-decoration: none;
+ }
+ .foot-tel-com:hover,
+ .foot-tel-com:focus{
+    color: var(--hov-foc-color);
+ }
+
+/*----------footer and-----------*/
+/*-------portfolio work---------*/
+
+.ouer-work{
+    /*-------other-------*/
+}
+.our-work-done{
+    display: none;
+}
+.button-tipe{
+   /* background-color: var(--text-bg-dop); */
+   list-style: none;
+   min-width: unset;
+   
+}
+button{
+    text-align: center;
+}
+.but{
+    color: var(--text-dec-black);
+    font-family: inherit;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+    letter-spacing: 0.03em;
+    cursor: pointer;
+    background-color: var(--text-bg-dop);
+}
+.but:hover,
+.but:focus {
+    color: var(--main-bg-color);
+    background-color: var(--hov-foc-color);
+}
+/*----------after batton!!!!!!!!!-------*/
+.all-inf-teh{
+    list-style: none;
+    
+}
+.all-inf-teh-li{
+    /*-------other-------*/
+}
+.all-info{
+    text-decoration: none;
+}
+.know-how{
+    color: var(--text-dec-black);
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+   
+    
+}
+.instrument-veb{
+    color: var(--text-main-color);
+    font-size: 16px;
+    line-height:1.87;
+    letter-spacing: 0.03em;
+    
+}
+
+
+/*-------portfolio work---------*/
+/*-------test---------*/
+.box{
+    border: 5px solid black;
+padding: 20px;
+margin: 20px;
+outline: 5px solid rosybrown;
+margin-bottom:50px;
+}
+
+
+
+
+/* .butyn{
+
+display: inline-block;
+padding:20px 40px;
+background-color: sandybrown;
+height: 20px;
+border: 3px solid green;
+}
+.butyn:hover,:focus{
+background: honeydew;
+}
+
+.but-g{
+    display: inline-block;
+    height: 15px;
+    width: 15px;
+    background-color: hotpink;
+    vertical-align: middle;
+    vertical-align:bottom;
+} */
+
+
+/*----jhgklhjg---------*/
+/* /* .jhkj{
+    margin-bottom: 50;
+    background-color: greenyellow;
+    outline: 2px solid greenyellow;
+    margin-top: 0; */
+
+    html{
+        box-sizing: border-box;
+        vertical-align: middle;
+    }
+    *, *::before, :after{
+        box-sizing: inherit;
+        
+    } */
