@@ -1,10 +1,6 @@
 /* -----------разметка boby----------*/
-html{
-    box-sizing: border-box;
-}
-*, *::before, :after{
-    box-sizing: inherit;
-}
+
+
 h1,h2,h3,h4,p,ul {
 margin-top: 0;
 margin-bottom: 0;
@@ -53,11 +49,8 @@ body{
     letter-spacing: 0.02em;
    
     }
-    .studio-text{
-       
-        Width: 145px;
-        Height: 31px;
-    }
+    
+    
 .logoone{
     color: var(--hov-foc-color);
     font-family: Raleway;
@@ -129,10 +122,11 @@ body{
     background-color: var(--dg-sacond-color);
     letter-spacing: 0.06em;
     max-width: 1600px;
-    margin: 0 auto;
     padding-top: 200px;
     padding-bottom: 200px;
     text-align: center;
+    margin-left: auto;
+    margin-right: auto;
     }
    
 .solution-business{
@@ -159,9 +153,6 @@ body{
     letter-spacing: 0.06em;
     cursor: pointer;
     background-color: var(--hov-foc-color);
-   
-    
-    
     border-radius: 4px;
     padding: 10px 32px 10px 32px;
     margin-top: 40px;
@@ -192,17 +183,21 @@ body{
 
 /*------------разметка  solutions and----------*/
 /*------------разметка vlastivosti----------*/
-.peculiar {
-    display: none;
+.box-section {
+padding-top: 94px;
+
 }
+/* .peculiar {
+    display: none;
+} */
 .vlastivosti{
+   
     list-style: none;
-    margin-top: 94px;
-    margin-left: 0;
 }
 
 .groop-pec {
-  /*-------other-------*/
+    margin-bottom:10;
+    
 }
 .good-job{
     color: var(--text-dec-black);
@@ -212,8 +207,9 @@ body{
     line-height: 1.14;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    margin-top: 0;
-    margin-bottom: 0;
+    margin-bottom: 10px;
+
+   
    
 }
 .exersise{
@@ -221,13 +217,12 @@ body{
     font-size: 14px;
     line-height:1.71;
     letter-spacing: 0.03em;
-   margin-top: 10;
-   margin-bottom: 0;
-}
+    }
+
 /*------------разметка vlastivosti and----------*/
 /*----------what-we-are-doing-------*/
 .doing{
-    /*-------other-------*/
+    padding-top: 94px;
 }
 .what-we-are-doing{
     color: var(--text-dec-black);
@@ -236,16 +231,16 @@ body{
     font-size: 36px;
     line-height: 1.16;
     letter-spacing: 0.03em;
-    margin-top: 0;
     margin-bottom:50px;
 }
 .doing-foto{
     list-style: none;
-}
+    }
 /*----------what-we-are-doing and-------*/
 /*----------our-team-----------*/
 .our-team {
     background: var(--text-bg-dop);
+    padding-top: 94px;;
 }
 .together-team{
     list-style: none; 
@@ -254,6 +249,9 @@ body{
 .portfol{
  /*-------other-------*/  
 }
+.foto-port{
+    margin-bottom: 30px;
+}
 .name{
     color: var(--text-dec-black);
     font-family: Roboto;
@@ -261,6 +259,7 @@ body{
     font-size: 16px;
     line-height: 1.18;
     letter-spacing: 0.03em;
+    margin-bottom: 10px;
 }
 .prof{
     font-weight: normal;
@@ -272,6 +271,9 @@ body{
 /*----------footer-----------*/
 footer{
     background: var(--dg-sacond-color);
+}
+.fut-box{
+    padding-top: 94px;
 }
 .foot-link{
     text-decoration: none;
