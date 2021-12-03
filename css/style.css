@@ -2,453 +2,450 @@
 
 
 h1,h2,h3,h4,p,ul {
-margin-top: 0;
-margin-bottom: 0;
-
-}
-
+    margin-top: 0;
+    margin-bottom: 0;
     
-body{
-    margin: 0;
-    color:#757575;
-    font-family: Roboto, sans-serif;
-    background-color: white;
-    letter-spacing: 0.03em;
-}
-/* -----------разметка boby and----------*/
-:root{
-    --main-bg-color:#FFFFFF;
-    --dg-sacond-color:#2F303A;
-    --text-main-color:#757575;
-    --hov-foc-color:#2196F3;
-    --hov-foc-exclusiv:#188CE8;
-    --text-dec-black:#212121;
-    --text-rgb-a:rgba(255, 255, 255, 0.6);
-    --text-bg-dop:#F5F4FA;
-}
-.container{
-    width: 1200px;
-    outline: 2px solid red;
-    margin: 0 auto;
-    padding-left: 15;
-    padding-right: 15;
-   
-}
-/*------------разметка nav----------*/
-.header-nav{
-    background-color: var(--main-bg-color);
-   
-
-}
-.main-nav{
-    color: var(--text-dec-black);
-    font-family: Roboto;
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 1.14;
-    letter-spacing: 0.02em;
-   
     }
     
+        
+    body{
+        margin: 0;
+        color:#757575;
+        font-family: Roboto, sans-serif;
+        background-color: white;
+        letter-spacing: 0.03em;
+    }
+    /* -----------разметка boby and----------*/
+    :root{
+        --main-bg-color:#FFFFFF;
+        --dg-sacond-color:#2F303A;
+        --text-main-color:#757575;
+        --hov-foc-color:#2196F3;
+        --hov-foc-exclusiv:#188CE8;
+        --text-dec-black:#212121;
+        --text-rgb-a:rgba(255, 255, 255, 0.6);
+        --text-bg-dop:#F5F4FA;
+    }
+    .container{
+        width: 1200px;
+        outline: 2px solid red;
+        margin: 0 auto;
+        padding-left: 15;
+        padding-right: 15;
+       
+    }
+    /*------------разметка nav----------*/
+    .header-nav{
+        background-color: var(--main-bg-color);
+       
     
-.logoone{
-    color: var(--hov-foc-color);
-    font-family: Raleway;
-    font-weight: 700;
-    font-size: 26px;
-    line-height: 1.192;
-    letter-spacing: 0.03em;
-    
-}
- /* .logoand{
+    }
+    .main-nav{
+        color: var(--text-dec-black);
+        font-family: Roboto;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 1.14;
+        letter-spacing: 0.02em;
+       
+        }
+        
+        
+    .logoone{
+        color: var(--hov-foc-color);
         font-family: Raleway;
-        font-style: normal;
         font-weight: 700;
         font-size: 26px;
         line-height: 1.192;
-        letter-spacing: 0.03em; */
-
-.logoand {
-    font-family: Raleway;
-    font-weight: 700;
-    font-size: 26px;
-    line-height: 1.192;
-    letter-spacing: 0.03em;
-}
-.logo>span{
-    color: var(--hov-foc-color);
-    font-family: Raleway;
-    font-weight: 700;
-    font-size: 26px;
-    line-height: 1.92;
-    letter-spacing: 0.03em;
- }
-.stpoco{
-    color: var(--text-dec-black);
-    list-style: none;
-}
-.link{
-    color: var(--text-dec-black);
-    text-decoration: none;  
-    letter-spacing: 0.02em;
-    
-    
-}
-.link:hover{
-    color: var(--hov-foc-color);
-}
-.link.current{
-    color: var(--hov-foc-color);
-}
-.contact{
-    list-style: none;
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 1.14;
-}
-.contact .link{
-    color: var(--text-main-color);
-    text-decoration: none; 
-    list-style: none;
-}
-.contact .link:hover,
-.contact .link:focus{
-    color: var(--hov-foc-color)
-}
-/*------------разметка nav and----------*/
-
-/*------------разметка solutions----------*/
-.solutions{
-    background-color: var(--dg-sacond-color);
-    letter-spacing: 0.06em;
-    max-width: 1600px;
-    padding-top: 200px;
-    padding-bottom: 200px;
-    text-align: center;
-    margin-left: auto;
-    margin-right: auto;
-    }
-   
-.solution-business{
-    color: var(--main-bg-color);
-    font-family: Roboto;
-    font-weight: 900;
-    font-size: 44px;
-    line-height: 1.36;
-    margin-top:0;
-    margin-bottom: 0;
-    text-align: center;
-    margin: 0 auto;
-    max-width: 696px;
-    
-   
-   
-    }
-.ordservis{
-    color: var(--main-bg-color);
-    font-family: inherit;
-    font-weight: 700;
-    font-size: 16px;
-    line-height: 1.87;
-    letter-spacing: 0.06em;
-    cursor: pointer;
-    background-color: var(--hov-foc-color);
-    border-radius: 4px;
-    padding: 10px 32px 10px 32px;
-    margin-top: 40px;
-    text-align: center;
-
-  
-}
-.ordservis:hover,
-.ordservis:focus {
-    background-color:var(--hov-foc-exclusiv);
-    
-}
-
-  
-    /* left: 732px;
-    top: 440px; */
-    /* border-radius: nullpx; */
-
-/* .btn{
-    display: inline-block; */ 
-    /* border: 7px solid greenyellow;
-    /* height: 50px;
-    width: 200px;
-    left: 700px;
-    top: 430px;
-    border-radius: 4px; */
-
-
-/*------------разметка  solutions and----------*/
-/*------------разметка vlastivosti----------*/
-.box-section {
-padding-top: 94px;
-
-}
-/* .peculiar {
-    display: none;
-} */
-.vlastivosti{
-   
-    list-style: none;
-}
-
-.groop-pec {
-    margin-bottom:10;
-    
-}
-.good-job{
-    color: var(--text-dec-black);
-    font-family: Roboto;
-    font-weight: 700;
-    font-size: 14px;
-    line-height: 1.14;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
-    margin-bottom: 10px;
-
-   
-   
-}
-.exersise{
-    font-weight: normal;
-    font-size: 14px;
-    line-height:1.71;
-    letter-spacing: 0.03em;
-    }
-
-/*------------разметка vlastivosti and----------*/
-/*----------what-we-are-doing-------*/
-.doing{
-    padding-top: 94px;
-}
-.what-we-are-doing{
-    color: var(--text-dec-black);
-    font-family: Roboto;
-    font-weight:700;
-    font-size: 36px;
-    line-height: 1.16;
-    letter-spacing: 0.03em;
-    margin-bottom:50px;
-}
-.doing-foto{
-    list-style: none;
-    }
-/*----------what-we-are-doing and-------*/
-/*----------our-team-----------*/
-.our-team {
-    background: var(--text-bg-dop);
-    padding-top: 94px;;
-}
-.together-team{
-    list-style: none; 
-    
-}
-.portfol{
- /*-------other-------*/  
-}
-.foto-port{
-    margin-bottom: 30px;
-}
-.name{
-    color: var(--text-dec-black);
-    font-family: Roboto;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.18;
-    letter-spacing: 0.03em;
-    margin-bottom: 10px;
-}
-.prof{
-    font-weight: normal;
-    font-size: 16px;
-    line-height: 1.18;
-    letter-spacing: 0.03em;
-}
-/*----------our-team and-----------*/
-/*----------footer-----------*/
-footer{
-    background: var(--dg-sacond-color);
-}
-.fut-box{
-    padding-top: 94px;
-}
-.foot-link{
-    text-decoration: none;
-}
-.foot-logo{
-    color: var(--hov-foc-color);
-    font-family: Raleway;
-    font-weight: 700;
-    font-size: 26px;
-    line-height:1.19;
-    letter-spacing: 0.03em;
-}
-.foot-logoand{
-    color: var(--main-bg-color);
-    font-family: Raleway;
-    font-weight: 700;
-    font-size: 26px;
-    line-height:1.19;
-    letter-spacing: 0.03em;
-}
-.foot-logoand:hover,
-.foot-logoand:focus{
-    color: var(--hov-foc-color); 
-}
-.foot-address{
-    color: var(--main-bg-color);  
-    font-style: normal;
-    font-size: 14px;
-    line-height: 1.71;
-    letter-spacing: 0.03em;
-}
-.foot-mail-tel{
-    list-style: none;
-}
-.foot-cont{
-    /*-------other-------*/
-}
-.foot-mail{
-/*-------other-------*/
-}
-   .foot-mail-com{
-    color: var(--text-rgb-a);
-    font-size: 14px;
-    line-height: 1.71;
-    letter-spacing: 0.03em;
-    text-decoration: none;
- }
- .foot-mail-com:hover,
- .foot-mail-com:focus{
-    color: var(--hov-foc-color);
- }
- .foot-tel-com{
-    color: var(--text-rgb-a);
-    font-size: 14px;
-    line-height: 1.71;
-    letter-spacing: 0.03em;
-    text-decoration: none;
- }
- .foot-tel-com:hover,
- .foot-tel-com:focus{
-    color: var(--hov-foc-color);
- }
-
-/*----------footer and-----------*/
-/*-------portfolio work---------*/
-
-.ouer-work{
-    /*-------other-------*/
-}
-.our-work-done{
-    display: none;
-}
-.button-tipe{
-   /* background-color: var(--text-bg-dop); */
-   list-style: none;
-   min-width: unset;
-   
-}
-button{
-    text-align: center;
-}
-.but{
-    color: var(--text-dec-black);
-    font-family: inherit;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.62;
-    letter-spacing: 0.03em;
-    cursor: pointer;
-    background-color: var(--text-bg-dop);
-}
-.but:hover,
-.but:focus {
-    color: var(--main-bg-color);
-    background-color: var(--hov-foc-color);
-}
-/*----------after batton!!!!!!!!!-------*/
-.all-inf-teh{
-    list-style: none;
-    
-}
-.all-inf-teh-li{
-    /*-------other-------*/
-}
-.all-info{
-    text-decoration: none;
-}
-.know-how{
-    color: var(--text-dec-black);
-    font-weight: 700;
-    font-size: 18px;
-    line-height: 2;
-    letter-spacing: 0.06em;
-   
-    
-}
-.instrument-veb{
-    color: var(--text-main-color);
-    font-size: 16px;
-    line-height:1.87;
-    letter-spacing: 0.03em;
-    
-}
-
-
-/*-------portfolio work---------*/
-/*-------test---------*/
-/* .box{
-    border: 5px solid black;
-padding: 20px;
-margin: 20px;
-outline: 5px solid rosybrown;
-margin-bottom:50px;
-} */
-
-
-
-
-/* .butyn{
-
-display: inline-block;
-padding:20px 40px;
-background-color: sandybrown;
-height: 20px;
-border: 3px solid green;
-}
-.butyn:hover,:focus{
-background: honeydew;
-}
-
-.but-g{
-    display: inline-block;
-    height: 15px;
-    width: 15px;
-    background-color: hotpink;
-    vertical-align: middle;
-    vertical-align:bottom;
-} */
-
-
-/*----jhgklhjg---------*/
-/* /* .jhkj{
-    margin-bottom: 50;
-    background-color: greenyellow;
-    outline: 2px solid greenyellow;
-    margin-top: 0; */
-
-    /* html{
-        box-sizing: border-box;
-        vertical-align: middle;
-    }
-    *, *::before, :after{
-        box-sizing: inherit;
+        letter-spacing: 0.03em;
         
+    }
+     /* .logoand{
+            font-family: Raleway;
+            font-style: normal;
+            font-weight: 700;
+            font-size: 26px;
+            line-height: 1.192;
+            letter-spacing: 0.03em; */
+    
+    .logoand {
+        font-family: Raleway;
+        font-weight: 700;
+        font-size: 26px;
+        line-height: 1.192;
+        letter-spacing: 0.03em;
+    }
+    .logo>span{
+        color: var(--hov-foc-color);
+        font-family: Raleway;
+        font-weight: 700;
+        font-size: 26px;
+        line-height: 1.92;
+        letter-spacing: 0.03em;
+     }
+    .stpoco{
+        color: var(--text-dec-black);
+        list-style: none;
+    }
+    .link{
+        color: var(--text-dec-black);
+        text-decoration: none;  
+        letter-spacing: 0.02em;
+        
+        
+    }
+    .link:hover{
+        color: var(--hov-foc-color);
+    }
+    .link.current{
+        color: var(--hov-foc-color);
+    }
+    .contact{
+        list-style: none;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 1.14;
+    }
+    .contact .link{
+        color: var(--text-main-color);
+        text-decoration: none; 
+        list-style: none;
+    }
+    .contact .link:hover,
+    .contact .link:focus{
+        color: var(--hov-foc-color)
+    }
+    /*------------разметка nav and----------*/
+    
+    /*------------разметка solutions----------*/
+    .solutions{
+        background-color: var(--dg-sacond-color);
+        letter-spacing: 0.06em;
+        max-width: 1600px;
+        padding-top: 200px;
+        padding-bottom: 200px;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+        }
+       
+    .solution-business{
+        color: var(--main-bg-color);
+        font-family: Roboto;
+        font-weight: 900;
+        font-size: 44px;
+        line-height: 1.36;
+        margin-top:0;
+        margin-bottom: 0;
+        text-align: center;
+        margin: 0 auto;
+        max-width: 696px;
+        
+       
+       
+        }
+    .ordservis{
+        color: var(--main-bg-color);
+        font-family: inherit;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 1.87;
+        letter-spacing: 0.06em;
+        cursor: pointer;
+        background-color: var(--hov-foc-color);
+        border-radius: 4px;
+        padding: 10px 32px 10px 32px;
+        margin-top: 40px;
+        text-align: center;
+    
+      
+    }
+    .ordservis:hover,
+    .ordservis:focus {
+        background-color:var(--hov-foc-exclusiv);
+        
+    }
+    
+      
+        /* left: 732px;
+        top: 440px; */
+        /* border-radius: nullpx; */
+    
+    /* .btn{
+        display: inline-block; */ 
+        /* border: 7px solid greenyellow;
+        /* height: 50px;
+        width: 200px;
+        left: 700px;
+        top: 430px;
+        border-radius: 4px; */
+    
+    
+    /*------------разметка  solutions and----------*/
+    /*------------разметка vlastivosti----------*/
+    .box-section {
+    padding-top: 94px;
+    
+    }
+    /* .peculiar {
+        display: none;
     } */
-
-
-     
+    .vlastivosti{
+       
+        list-style: none;
+    }
+    
+    .groop-pec {
+        margin-bottom:10;
+        
+    }
+    .good-job{
+        color: var(--text-dec-black);
+        font-family: Roboto;
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 1.14;
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
+        margin-bottom: 10px;
+    
+       
+       
+    }
+    .exersise{
+        font-weight: normal;
+        font-size: 14px;
+        line-height:1.71;
+        letter-spacing: 0.03em;
+        }
+    
+    /*------------разметка vlastivosti and----------*/
+    /*----------what-we-are-doing-------*/
+    .doing{
+        padding-top: 94px;
+    }
+    .what-we-are-doing{
+        color: var(--text-dec-black);
+        font-family: Roboto;
+        font-weight:700;
+        font-size: 36px;
+        line-height: 1.16;
+        letter-spacing: 0.03em;
+        margin-bottom:50px;
+    }
+    .doing-foto{
+        list-style: none;
+        }
+    /*----------what-we-are-doing and-------*/
+    /*----------our-team-----------*/
+    .our-team {
+        background: var(--text-bg-dop);
+        padding-top: 94px;;
+    }
+    .together-team{
+        list-style: none; 
+        
+    }
+    .portfol{
+     /*-------other-------*/  
+    }
+    .foto-port{
+        margin-bottom: 30px;
+    }
+    .name{
+        color: var(--text-dec-black);
+        font-family: Roboto;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.18;
+        letter-spacing: 0.03em;
+        margin-bottom: 10px;
+    }
+    .prof{
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 1.18;
+        letter-spacing: 0.03em;
+    }
+    /*----------our-team and-----------*/
+    /*----------footer-----------*/
+    footer{
+        background: var(--dg-sacond-color);
+    }
+    .fut-box{
+        padding-top: 94px;
+    }
+    .foot-link{
+        text-decoration: none;
+    }
+    .foot-logo{
+        color: var(--hov-foc-color);
+        font-family: Raleway;
+        font-weight: 700;
+        font-size: 26px;
+        line-height:1.19;
+        letter-spacing: 0.03em;
+    }
+    .foot-logoand{
+        color: var(--main-bg-color);
+        font-family: Raleway;
+        font-weight: 700;
+        font-size: 26px;
+        line-height:1.19;
+        letter-spacing: 0.03em;
+    }
+    .foot-logoand:hover,
+    .foot-logoand:focus{
+        color: var(--hov-foc-color); 
+    }
+    .foot-address{
+        color: var(--main-bg-color);  
+        font-style: normal;
+        font-size: 14px;
+        line-height: 1.71;
+        letter-spacing: 0.03em;
+    }
+    .foot-mail-tel{
+        list-style: none;
+    }
+    .foot-cont{
+        /*-------other-------*/
+    }
+    .foot-mail{
+    /*-------other-------*/
+    }
+       .foot-mail-com{
+        color: var(--text-rgb-a);
+        font-size: 14px;
+        line-height: 1.71;
+        letter-spacing: 0.03em;
+        text-decoration: none;
+     }
+     .foot-mail-com:hover,
+     .foot-mail-com:focus{
+        color: var(--hov-foc-color);
+     }
+     .foot-tel-com{
+        color: var(--text-rgb-a);
+        font-size: 14px;
+        line-height: 1.71;
+        letter-spacing: 0.03em;
+        text-decoration: none;
+     }
+     .foot-tel-com:hover,
+     .foot-tel-com:focus{
+        color: var(--hov-foc-color);
+     }
+    
+    /*----------footer and-----------*/
+    /*-------portfolio work---------*/
+    
+    .ouer-work{
+        /*-------other-------*/
+    }
+    .our-work-done{
+        display: none;
+    }
+    .button-tipe{
+       /* background-color: var(--text-bg-dop); */
+       list-style: none;
+       min-width: unset;
+       
+    }
+    button{
+        text-align: center;
+    }
+    .but{
+        color: var(--text-dec-black);
+        font-family: inherit;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.62;
+        letter-spacing: 0.03em;
+        cursor: pointer;
+        background-color: var(--text-bg-dop);
+    }
+    .but:hover,
+    .but:focus {
+        color: var(--main-bg-color);
+        background-color: var(--hov-foc-color);
+    }
+    /*----------after batton!!!!!!!!!-------*/
+    .all-inf-teh{
+        list-style: none;
+        
+    }
+    .all-inf-teh-li{
+        /*-------other-------*/
+    }
+    .all-info{
+        text-decoration: none;
+    }
+    .know-how{
+        color: var(--text-dec-black);
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 2;
+        letter-spacing: 0.06em;
+       
+        
+    }
+    .instrument-veb{
+        color: var(--text-main-color);
+        font-size: 16px;
+        line-height:1.87;
+        letter-spacing: 0.03em;
+        
+    }
+    
+    
+    /*-------portfolio work---------*/
+    /*-------test---------*/
+    /* .box{
+        border: 5px solid black;
+    padding: 20px;
+    margin: 20px;
+    outline: 5px solid rosybrown;
+    margin-bottom:50px;
+    } */
+    
+    
+    
+    
+    /* .butyn{
+    display: inline-block;
+    padding:20px 40px;
+    background-color: sandybrown;
+    height: 20px;
+    border: 3px solid green;
+    }
+    .butyn:hover,:focus{
+    background: honeydew;
+    }
+    .but-g{
+        display: inline-block;
+        height: 15px;
+        width: 15px;
+        background-color: hotpink;
+        vertical-align: middle;
+        vertical-align:bottom;
+    } */
+    
+    
+    /*----jhgklhjg---------*/
+    /* /* .jhkj{
+        margin-bottom: 50;
+        background-color: greenyellow;
+        outline: 2px solid greenyellow;
+        margin-top: 0; */
+    
+        /* html{
+            box-sizing: border-box;
+            vertical-align: middle;
+        }
+        *, *::before, :after{
+            box-sizing: inherit;
+            
+        } */
+    
+    
