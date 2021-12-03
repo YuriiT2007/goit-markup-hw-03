@@ -2,8 +2,8 @@
 
 
 h1,h2,h3,h4,p,ul {
-    margin-top: 0;
-    margin-bottom: 0;
+    margin: 0px;
+    padding: 0px;
     
     }
     
@@ -240,7 +240,8 @@ h1,h2,h3,h4,p,ul {
     /*----------our-team-----------*/
     .our-team {
         background: var(--text-bg-dop);
-        padding-top: 94px;;
+        padding-top: 94px;
+        padding-bottom: 94px;
     }
     .together-team{
         list-style: none; 
@@ -273,7 +274,7 @@ h1,h2,h3,h4,p,ul {
         background: var(--dg-sacond-color);
     }
     .fut-box{
-        padding-top: 94px;
+        padding-top: 60px;
     }
     .foot-link{
         text-decoration: none;
@@ -447,5 +448,4 @@ h1,h2,h3,h4,p,ul {
             box-sizing: inherit;
             
         } */
-    
-    
+       
