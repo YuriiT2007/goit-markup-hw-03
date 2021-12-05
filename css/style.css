@@ -47,6 +47,9 @@ h1,h2,h3,h4,p,ul {
         font-size: 14px;
         line-height: 1.14;
         letter-spacing: 0.02em;
+        padding-left: 215px;
+        padding-top: 24px;
+        padding-bottom: 25px;
        
         }
         
@@ -91,7 +94,9 @@ h1,h2,h3,h4,p,ul {
         color: var(--text-dec-black);
         text-decoration: none;  
         letter-spacing: 0.02em;
-        
+        font-size: 14px;
+        padding-top: 32px;
+        padding-bottom: 32px;
         
     }
     .link:hover{
@@ -99,6 +104,8 @@ h1,h2,h3,h4,p,ul {
     }
     .link.current{
         color: var(--hov-foc-color);
+        padding-top: 32px;
+        padding-bottom: 32px;
     }
     .contact{
         list-style: none;
@@ -275,9 +282,19 @@ h1,h2,h3,h4,p,ul {
     }
     .fut-box{
         padding-top: 60px;
+        padding-bottom: 60px;
+        padding-left: 215px;
+        width: 1200px;
+        margin: 0px auto;
+      
+        
+    
+       
     }
     .foot-link{
         text-decoration: none;
+        margin-bottom: 20px;
+        display: inline-block;
     }
     .foot-logo{
         color: var(--hov-foc-color);
@@ -305,6 +322,7 @@ h1,h2,h3,h4,p,ul {
         font-size: 14px;
         line-height: 1.71;
         letter-spacing: 0.03em;
+        margin-bottom: 9px;
     }
     .foot-mail-tel{
         list-style: none;
@@ -321,6 +339,7 @@ h1,h2,h3,h4,p,ul {
         line-height: 1.71;
         letter-spacing: 0.03em;
         text-decoration: none;
+        margin-bottom: 9px;
      }
      .foot-mail-com:hover,
      .foot-mail-com:focus{
@@ -342,15 +361,19 @@ h1,h2,h3,h4,p,ul {
     /*-------portfolio work---------*/
     
     .ouer-work{
-        /*-------other-------*/
+        padding-top: 100px;
+        margin: 0px;
+       
     }
-    .our-work-done{
+    /* .our-work-done{
         display: none;
-    }
+    } */
     .button-tipe{
        /* background-color: var(--text-bg-dop); */
        list-style: none;
        min-width: unset;
+       display: inline-block;
+    
        
     }
     button{
@@ -382,12 +405,16 @@ h1,h2,h3,h4,p,ul {
     .all-info{
         text-decoration: none;
     }
+    .foto-a{
+        margin-bottom: 20px;
+    }
     .know-how{
         color: var(--text-dec-black);
         font-weight: 700;
         font-size: 18px;
         line-height: 2;
         letter-spacing: 0.06em;
+        margin-bottom: 4px;
        
         
     }
