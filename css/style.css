@@ -37,11 +37,16 @@ h1,h2,h3,h4,p,ul {
     /*------------разметка nav----------*/
     .header-nav{
         background-color: var(--main-bg-color);
-       border-bottom: 1px solid green;
-    
+       border-bottom: 1px solid #EEEEEE;
+    display: flex;
+    align-items: center;
     }
     .main-nav{
         color: var(--text-dec-black);
+        display: flex;
+        align-items: center;
+       
+    }
         /* font-family: Roboto;
         font-weight: 500;
         font-size: 14px;
@@ -49,17 +54,19 @@ h1,h2,h3,h4,p,ul {
         letter-spacing: 0.02em;
         
          */
-       
-    }
+         /* display: flex;
+         justify-content: center;
+         align-items: center; */
+         
     .link-studio{
         font-family: Raleway;
         font-weight: 700;
         font-size: 26px;
         line-height: 1.19;
         letter-spacing: 0.03em;
-        
         padding-top: 24px;
         padding-bottom: 25px;
+        text-decoration: none;
     }
         
         
@@ -99,6 +106,15 @@ h1,h2,h3,h4,p,ul {
     .stpoco{
         color: var(--text-dec-black);
         list-style: none;
+        display: flex;
+        margin-left: 93px;
+        /* display: inline;
+        display: inline-flex; */
+        /* display: flex;
+        justify-content: space-between; */
+    }
+    .boxin{
+        margin-right: 50px;
     }
     .link{
         color: var(--text-dec-black);
@@ -122,15 +138,28 @@ h1,h2,h3,h4,p,ul {
         font-weight: 500;
         font-size: 14px;
         line-height: 1.14;
+        display: flex;
+        margin-left: auto;
+
+        /* display: inline-flex; */
     }
-    .contact .link{
+     .contact.link{
         color: var(--text-main-color);
         text-decoration: none; 
         list-style: none;
     }
+    .contact .linka{
+        margin-right: 50px;
+    }
+   .linka:last-child{
+        margin-right: 0px;
+    }
     .contact .link:hover,
     .contact .link:focus{
         color: var(--hov-foc-color)
+    }
+    .marlin{
+        margin-right: 50px;
     }
     /*------------разметка nav and----------*/
     
@@ -208,13 +237,18 @@ h1,h2,h3,h4,p,ul {
         display: none;
     } */
     .vlastivosti{
-       
         list-style: none;
+       display: flex;
+     
+    }
+    .groop-pec:first-child{
+        margin-left: 0px;
     }
     
     .groop-pec {
-        margin-bottom:10;
-        
+     width: calc(100%/4);
+     margin-left: 30px;
+     
     }
     .good-job{
         color: var(--text-dec-black);
@@ -225,6 +259,7 @@ h1,h2,h3,h4,p,ul {
         letter-spacing: 0.03em;
         text-transform: uppercase;
         margin-bottom: 10px;
+        
     
        
        
@@ -393,7 +428,7 @@ h1,h2,h3,h4,p,ul {
        
     }
     button{
-        text-align: center;
+        /*-------other-------*/
     }
     .but{
         color: var(--text-dec-black);
