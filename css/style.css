@@ -30,28 +30,37 @@ h1,h2,h3,h4,p,ul {
         width: 1200px;
         outline: 2px solid red;
         margin: 0 auto;
-        padding-left: 15;
-        padding-right: 15;
+        padding-left: 15px;
+        padding-right: 15px;
        
     }
     /*------------разметка nav----------*/
     .header-nav{
         background-color: var(--main-bg-color);
-       
+       border-bottom: 1px solid green;
     
     }
     .main-nav{
         color: var(--text-dec-black);
-        font-family: Roboto;
+        /* font-family: Roboto;
         font-weight: 500;
         font-size: 14px;
         line-height: 1.14;
         letter-spacing: 0.02em;
-        padding-left: 215px;
+        
+         */
+       
+    }
+    .link-studio{
+        font-family: Raleway;
+        font-weight: 700;
+        font-size: 26px;
+        line-height: 1.19;
+        letter-spacing: 0.03em;
+        
         padding-top: 24px;
         padding-bottom: 25px;
-       
-        }
+    }
         
         
     .logoone{
@@ -61,8 +70,9 @@ h1,h2,h3,h4,p,ul {
         font-size: 26px;
         line-height: 1.192;
         letter-spacing: 0.03em;
-        
-    }
+
+        }
+        .main-nav>link>
      /* .logoand{
             font-family: Raleway;
             font-style: normal;
@@ -102,11 +112,11 @@ h1,h2,h3,h4,p,ul {
     .link:hover{
         color: var(--hov-foc-color);
     }
-    .link.current{
+    /* .link.current{
         color: var(--hov-foc-color);
         padding-top: 32px;
         padding-bottom: 32px;
-    }
+    } */
     .contact{
         list-style: none;
         font-weight: 500;
@@ -230,6 +240,7 @@ h1,h2,h3,h4,p,ul {
     /*----------what-we-are-doing-------*/
     .doing{
         padding-top: 94px;
+        padding-bottom: 94px;
     }
     .what-we-are-doing{
         color: var(--text-dec-black);
@@ -258,7 +269,7 @@ h1,h2,h3,h4,p,ul {
      /*-------other-------*/  
     }
     .foto-port{
-        margin-bottom: 30px;
+       /*-------other-------*/
     }
     .name{
         color: var(--text-dec-black);
@@ -283,7 +294,7 @@ h1,h2,h3,h4,p,ul {
     .fut-box{
         padding-top: 60px;
         padding-bottom: 60px;
-        padding-left: 215px;
+       
         width: 1200px;
         margin: 0px auto;
       
@@ -339,6 +350,7 @@ h1,h2,h3,h4,p,ul {
         line-height: 1.71;
         letter-spacing: 0.03em;
         text-decoration: none;
+        display:inline-block;
         margin-bottom: 9px;
      }
      .foot-mail-com:hover,
@@ -372,7 +384,11 @@ h1,h2,h3,h4,p,ul {
        /* background-color: var(--text-bg-dop); */
        list-style: none;
        min-width: unset;
-       display: inline-block;
+       /* display: inline-block; */
+       display: flex;
+       
+      
+      padding-left: 280px;
     
        
     }
@@ -388,6 +404,7 @@ h1,h2,h3,h4,p,ul {
         letter-spacing: 0.03em;
         cursor: pointer;
         background-color: var(--text-bg-dop);
+        margin-right: 8px;
     }
     .but:hover,
     .but:focus {
