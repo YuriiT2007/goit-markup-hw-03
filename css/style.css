@@ -488,6 +488,10 @@ h1,h2,h3,h4,p,ul {
     .all-info{
         text-decoration: none;
     }
+    .contfoto{
+        display: block;
+        max-width: 100%;
+    }
     .foto-a{
         margin-bottom: 20px;
     }
