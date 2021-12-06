@@ -67,6 +67,7 @@ h1,h2,h3,h4,p,ul {
         padding-top: 24px;
         padding-bottom: 25px;
         text-decoration: none;
+        
     }
         
         
@@ -285,10 +286,24 @@ h1,h2,h3,h4,p,ul {
         line-height: 1.16;
         letter-spacing: 0.03em;
         margin-bottom:50px;
+        text-align: center;
     }
     .doing-foto{
         list-style: none;
+        display: flex;
+        /* align-items: center; */
+        /* width: calc(100%/3); */
+        /* background-color: chartreuse; */
+        /* justify-content: space-between; */
         }
+    .threefoto{
+       margin-right: 30px;
+        /* align-items: center; */
+        /* width: calc(100%/3); */
+    }
+    .threefoto:last-child{
+        margin-right: 0px;
+    }
     /*----------what-we-are-doing and-------*/
     /*----------our-team-----------*/
     .our-team {
@@ -298,7 +313,14 @@ h1,h2,h3,h4,p,ul {
     }
     .together-team{
         list-style: none; 
+        display: flex;
         
+    }
+    .picthree{
+        margin-right: 30px;
+    }
+    .picthree:last-child{
+        margin-right: 0px;
     }
     .portfol{
      /*-------other-------*/  
@@ -421,11 +443,13 @@ h1,h2,h3,h4,p,ul {
        min-width: unset;
        /* display: inline-block; */
        display: flex;
+       /* width: calc(100%/5); */
+       align-items: center;
+       justify-content: center;
        
-      
-      padding-left: 280px;
-    
-       
+    }
+   .but.mar{
+        margin-right: 0px;
     }
     button{
         /*-------other-------*/
@@ -449,16 +473,29 @@ h1,h2,h3,h4,p,ul {
     /*----------after batton!!!!!!!!!-------*/
     .all-inf-teh{
         list-style: none;
+        display: flex; 
+       flex-wrap: wrap;
+       margin-left: -20px;
+       margin-top: -20px;
         
     }
     .all-inf-teh-li{
-        /*-------other-------*/
+        display: flex;
+        margin-left: 20px;
+        margin-top: 20px;
+        flex-basis: calc(100%/3-20);
     }
     .all-info{
         text-decoration: none;
     }
     .foto-a{
         margin-bottom: 20px;
+    }
+    .contentdiv{
+        padding-top: 20px;
+        padding-right: 24px;
+        padding-left: 24px;
+        padding-bottom: 20px;
     }
     .know-how{
         color: var(--text-dec-black);
