@@ -28,7 +28,7 @@ h1,h2,h3,h4,p,ul {
     }
     .container{
         width: 1200px;
-        outline: 2px solid red;
+        outline: 1px solid transparent;
         margin: 0 auto;
         padding-left: 15px;
         padding-right: 15px;
@@ -36,10 +36,10 @@ h1,h2,h3,h4,p,ul {
     }
     /*------------разметка nav----------*/
     .header-nav{
-        background-color: var(--main-bg-color);
-       border-bottom: 1px solid #EEEEEE;
-    display: flex;
-    align-items: center;
+       background-color: var(--main-bg-color);
+       border-bottom: 1px solid #ECECEC;
+       display: flex;
+       align-items: center;
     }
     .main-nav{
         color: var(--text-dec-black);
@@ -67,6 +67,7 @@ h1,h2,h3,h4,p,ul {
         padding-top: 24px;
         padding-bottom: 25px;
         text-decoration: none;
+        color: var(--text-dec-black);
         
     }
         
@@ -95,6 +96,10 @@ h1,h2,h3,h4,p,ul {
         font-size: 26px;
         line-height: 1.192;
         letter-spacing: 0.03em;
+       
+    }
+    .logoand:hover{
+        color:var(--hov-foc-color);
     }
     .logo>span{
         color: var(--hov-foc-color);
@@ -114,8 +119,14 @@ h1,h2,h3,h4,p,ul {
         /* display: flex;
         justify-content: space-between; */
     }
+    /* .stpoco > boxin > current{
+        color: greenyellow;
+    } */
     .boxin{
         margin-right: 50px;
+    }
+    .stpoco .current{
+        color:var(--hov-foc-color)
     }
     .link{
         color: var(--text-dec-black);
@@ -144,13 +155,14 @@ h1,h2,h3,h4,p,ul {
 
         /* display: inline-flex; */
     }
-     .contact.link{
+     .contact .link{
         color: var(--text-main-color);
         text-decoration: none; 
         list-style: none;
     }
     .contact .linka{
         margin-right: 50px;
+        font-size: 14px;
     }
    .linka:last-child{
         margin-right: 0px;
@@ -291,6 +303,8 @@ h1,h2,h3,h4,p,ul {
     .doing-foto{
         list-style: none;
         display: flex;
+        width: calc(100%/3-30);
+        /* flex-wrap: wrap; */
         /* align-items: center; */
         /* width: calc(100%/3); */
         /* background-color: chartreuse; */
@@ -298,6 +312,7 @@ h1,h2,h3,h4,p,ul {
         }
     .threefoto{
        margin-right: 30px;
+       width: calc(100%/3);
         /* align-items: center; */
         /* width: calc(100%/3); */
     }
@@ -316,17 +331,28 @@ h1,h2,h3,h4,p,ul {
         display: flex;
         
     }
-    .picthree{
+    .portfol{
         margin-right: 30px;
+        height: auto;
     }
-    .picthree:last-child{
+    .portfol:last-child{
         margin-right: 0px;
     }
-    .portfol{
-     /*-------other-------*/  
+    .divtext{
+        padding-top: 30px;
+        padding-bottom: 30px;
+        background-color: var(--text-bg-dop);
+    }
+    
+    
+    .foto-ouer-team{
+         /*-------other Див Фото-------*/ 
+    }
+    .foto-ouer-team{
+        display: flex;
     }
     .foto-port{
-       /*-------other-------*/
+       height: 260px;
     }
     .name{
         color: var(--text-dec-black);
@@ -336,12 +362,14 @@ h1,h2,h3,h4,p,ul {
         line-height: 1.18;
         letter-spacing: 0.03em;
         margin-bottom: 10px;
+        text-align: center;
     }
     .prof{
         font-weight: normal;
         font-size: 16px;
         line-height: 1.18;
         letter-spacing: 0.03em;
+        text-align: center;
     }
     /*----------our-team and-----------*/
     /*----------footer-----------*/
@@ -352,7 +380,7 @@ h1,h2,h3,h4,p,ul {
         padding-top: 60px;
         padding-bottom: 60px;
        
-        width: 1200px;
+        width: auto;
         margin: 0px auto;
       
         
@@ -437,6 +465,9 @@ h1,h2,h3,h4,p,ul {
     /* .our-work-done{
         display: none;
     } */
+    .section-but{
+        padding-top: 94px;
+    }
     .button-tipe{
        /* background-color: var(--text-bg-dop); */
        list-style: none;
@@ -464,6 +495,7 @@ h1,h2,h3,h4,p,ul {
         cursor: pointer;
         background-color: var(--text-bg-dop);
         margin-right: 8px;
+        border-radius: 4px;
     }
     .but:hover,
     .but:focus {
@@ -471,6 +503,9 @@ h1,h2,h3,h4,p,ul {
         background-color: var(--hov-foc-color);
     }
     /*----------after batton!!!!!!!!!-------*/
+    .many-foto{
+        padding-top: 50px;
+    }
     .all-inf-teh{
         list-style: none;
         display: flex; 
