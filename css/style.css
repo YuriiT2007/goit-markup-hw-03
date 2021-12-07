@@ -199,6 +199,7 @@ h1,h2,h3,h4,p,ul {
         text-align: center;
         margin: 0 auto;
         max-width: 696px;
+        text-transform: uppercase;
         
        
        
@@ -467,6 +468,7 @@ h1,h2,h3,h4,p,ul {
     } */
     .section-but{
         padding-top: 100px;
+        padding-bottom: 94px;
     }
     .button-tipe{
        /* background-color: var(--text-bg-dop); */
@@ -477,6 +479,7 @@ h1,h2,h3,h4,p,ul {
        /* width: calc(100%/5); */
        align-items: center;
        justify-content: center;
+       margin-bottom: 50px;
        
     }
    .but.mar{
@@ -504,7 +507,7 @@ h1,h2,h3,h4,p,ul {
     }
     /*----------after batton!!!!!!!!!-------*/
     .many-foto{
-        padding-top: 50px;
+        
     }
     .all-inf-teh{
         list-style: none;
@@ -526,14 +529,17 @@ h1,h2,h3,h4,p,ul {
     .contfoto{
         display: block;
         max-width: 100%;
+        margin-bottom: 0px;
     }
     img{
         display: block;
         width: 100%;
     }
     .foto-a{
-        margin-bottom: 20px;
+        margin-bottom: 0px;
+        display: block;
     }
+    
     .contentdiv{
         padding-top: 20px;
         padding-right: 24px;
