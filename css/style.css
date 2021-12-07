@@ -499,6 +499,7 @@ h1,h2,h3,h4,p,ul {
         background-color: var(--text-bg-dop);
         margin-right: 8px;
         border-radius: 4px;
+        border: 1px solid transparent;
     }
     .but:hover,
     .but:focus {
