@@ -466,7 +466,7 @@ h1,h2,h3,h4,p,ul {
         display: none;
     } */
     .section-but{
-        padding-top: 94px;
+        padding-top: 100px;
     }
     .button-tipe{
        /* background-color: var(--text-bg-dop); */
@@ -526,6 +526,10 @@ h1,h2,h3,h4,p,ul {
     .contfoto{
         display: block;
         max-width: 100%;
+    }
+    img{
+        display: block;
+        width: 100%;
     }
     .foto-a{
         margin-bottom: 20px;
