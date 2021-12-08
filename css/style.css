@@ -35,16 +35,24 @@ h1,h2,h3,h4,p,ul {
        
     }
     /*------------разметка nav----------*/
+    
+        
     .header-nav{
        background-color: var(--main-bg-color);
-       border-bottom: 1px solid #ECECEC;
        display: flex;
+       border-bottom: 1px solid #ECECEC;
+     margin-left: 0 auto;
        align-items: center;
+      
+    }
+    .had{
+        display: flex;
     }
     .main-nav{
         color: var(--text-dec-black);
         display: flex;
         align-items: center;
+        margin-right: 0px;
        
     }
         /* font-family: Roboto;
@@ -71,7 +79,7 @@ h1,h2,h3,h4,p,ul {
         
     }
         
-        
+      
     .logoone{
         color: var(--hov-foc-color);
         font-family: Raleway;
@@ -114,6 +122,7 @@ h1,h2,h3,h4,p,ul {
         list-style: none;
         display: flex;
         margin-left: 93px;
+        
         /* display: inline;
         display: inline-flex; */
         /* display: flex;
@@ -135,6 +144,7 @@ h1,h2,h3,h4,p,ul {
         font-size: 14px;
         padding-top: 32px;
         padding-bottom: 32px;
+        font-weight: 500;
         
     }
     .link:hover{
@@ -147,11 +157,12 @@ h1,h2,h3,h4,p,ul {
     } */
     .contact{
         list-style: none;
-        font-weight: 500;
+        /* font-weight: 500; */
         font-size: 14px;
         line-height: 1.14;
         display: flex;
         margin-left: auto;
+        align-items: center;
 
         /* display: inline-flex; */
     }
@@ -163,6 +174,8 @@ h1,h2,h3,h4,p,ul {
     .contact .linka{
         margin-right: 50px;
         font-size: 14px;
+        align-items: center;
+        display: flex;
     }
    .linka:last-child{
         margin-right: 0px;
@@ -194,6 +207,7 @@ h1,h2,h3,h4,p,ul {
         font-weight: 900;
         font-size: 44px;
         line-height: 1.36;
+        letter-spacing: 0.06em;
         margin-top:0;
         margin-bottom: 0;
         text-align: center;
@@ -469,6 +483,7 @@ h1,h2,h3,h4,p,ul {
     .section-but{
         padding-top: 100px;
         padding-bottom: 94px;
+        
     }
     .button-tipe{
        /* background-color: var(--text-bg-dop); */
@@ -481,6 +496,12 @@ h1,h2,h3,h4,p,ul {
        justify-content: center;
        margin-bottom: 50px;
        
+    }
+    .butli{
+        padding-top: 6px;
+        padding-right: 22px;
+        padding-bottom: 6px;
+        padding-left: 22px;
     }
    .but.mar{
         margin-right: 0px;
@@ -514,15 +535,15 @@ h1,h2,h3,h4,p,ul {
         list-style: none;
         display: flex; 
        flex-wrap: wrap;
-       margin-left: -20px;
-       margin-top: -20px;
+       margin-left: -30px;
+       margin-top: -30px;
         
     }
     .all-inf-teh-li{
         display: flex;
-        margin-left: 20px;
-        margin-top: 20px;
-        flex-basis: calc(100%/3-20);
+        margin-left: 30px;
+        margin-top: 30px;
+        flex-basis: calc(100%/ 3 - 30px);
     }
     .all-info{
         text-decoration: none;
@@ -557,7 +578,7 @@ h1,h2,h3,h4,p,ul {
         line-height: 2;
         letter-spacing: 0.06em;
         margin-bottom: 4px;
-       
+       display: inline;
         
     }
     .instrument-veb{
@@ -565,6 +586,7 @@ h1,h2,h3,h4,p,ul {
         font-size: 16px;
         line-height:1.87;
         letter-spacing: 0.03em;
+        
         
     }
     
